@@ -1,0 +1,51 @@
+pipeline_name,last_run_time,duration_min,status,owner,trigger_type,error_message,evaluation_prompt
+user_events_pipeline,2025-03-22 05:07:28,9.64,Failed,Andreas,event,Timeout error,The pipeline 'user_events_pipeline' failed on 2025-03-22 05:07:28 with the error: Timeout error.
+analytics_summary_job,2025-03-22 11:07:28,18.13,Failed,Andreas,event,Permission denied,The pipeline 'analytics_summary_job' failed on 2025-03-22 11:07:28 with the error: Permission denied.
+sales_data_etl,2025-03-23 06:07:28,12.01,Success,Andreas,manual,,The pipeline succeeded.
+user_events_pipeline,2025-03-23 16:07:28,4.21,Failed,Emily,event,Out of memory,The pipeline 'user_events_pipeline' failed on 2025-03-23 16:07:28 with the error: Out of memory.
+inventory_check_pipeline,2025-03-23 08:07:28,3.4,Failed,Arockia,event,Permission denied,The pipeline 'inventory_check_pipeline' failed on 2025-03-23 08:07:28 with the error: Permission denied.
+product_catalog_sync,2025-03-22 06:07:28,28.04,Success,Arockia,event,,The pipeline succeeded.
+user_events_pipeline,2025-03-23 08:07:28,21.92,Failed,Emily,schedule,Timeout error,The pipeline 'user_events_pipeline' failed on 2025-03-23 08:07:28 with the error: Timeout error.
+daily_aggregates_pipeline,2025-03-23 12:07:28,15.95,Failed,Sarah,event,Timeout error,The pipeline 'daily_aggregates_pipeline' failed on 2025-03-23 12:07:28 with the error: Timeout error.
+payment_processing_job,2025-03-22 10:07:28,19.54,Success,Juan,event,,The pipeline succeeded.
+product_catalog_sync,2025-03-23 09:07:28,3.17,Failed,Arockia,event,Timeout error,The pipeline 'product_catalog_sync' failed on 2025-03-23 09:07:28 with the error: Timeout error.
+payment_processing_job,2025-03-21 21:07:28,1.54,Success,Juan,event,,The pipeline succeeded.
+marketing_campaign_ingest,2025-03-24 04:07:28,17.46,Success,Sarah,schedule,,The pipeline succeeded.
+product_catalog_sync,2025-03-23 01:07:28,6.24,Failed,Andreas,schedule,Null pointer exception,The pipeline 'product_catalog_sync' failed on 2025-03-23 01:07:28 with the error: Null pointer exception.
+inventory_check_pipeline,2025-03-23 18:07:28,11.96,Success,Santiago,manual,,The pipeline succeeded.
+sales_data_etl,2025-03-23 03:07:28,29.51,Failed,Andreas,event,Null pointer exception,The pipeline 'sales_data_etl' failed on 2025-03-23 03:07:28 with the error: Null pointer exception.
+daily_aggregates_pipeline,2025-03-22 01:07:28,14.94,Failed,Sarah,event,Out of memory,The pipeline 'daily_aggregates_pipeline' failed on 2025-03-22 01:07:28 with the error: Out of memory.
+sales_data_etl,2025-03-23 04:07:28,13.27,Failed,Arockia,manual,Timeout error,The pipeline 'sales_data_etl' failed on 2025-03-23 04:07:28 with the error: Timeout error.
+user_events_pipeline,2025-03-23 11:07:28,18.85,Success,Arockia,event,,The pipeline succeeded.
+payment_processing_job,2025-03-23 18:07:28,17.45,Success,Arockia,event,,The pipeline succeeded.
+daily_aggregates_pipeline,2025-03-22 17:07:28,2.5,Success,Juan,schedule,,The pipeline succeeded.
+payment_processing_job,2025-03-22 12:07:28,11.72,Success,Juan,schedule,,The pipeline succeeded.
+user_events_pipeline,2025-03-21 17:07:28,22.44,Success,Arockia,event,,The pipeline succeeded.
+user_events_pipeline,2025-03-24 04:07:28,24.39,Success,Arockia,manual,,The pipeline succeeded.
+inventory_check_pipeline,2025-03-21 14:07:28,4.33,Success,Emily,manual,,The pipeline succeeded.
+user_events_pipeline,2025-03-22 02:07:28,7.97,Failed,Andreas,manual,Permission denied,The pipeline 'user_events_pipeline' failed on 2025-03-22 02:07:28 with the error: Permission denied.
+sales_data_etl,2025-03-24 11:07:28,23.22,Success,Arockia,event,,The pipeline succeeded.
+product_catalog_sync,2025-03-21 18:07:28,27.48,Success,Emily,manual,,The pipeline succeeded.
+analytics_summary_job,2025-03-24 00:07:28,9.93,Success,Juan,manual,,The pipeline succeeded.
+inventory_check_pipeline,2025-03-21 18:07:28,18.91,Failed,Sarah,manual,Out of memory,The pipeline 'inventory_check_pipeline' failed on 2025-03-21 18:07:28 with the error: Out of memory.
+user_events_pipeline,2025-03-23 09:07:28,9.52,Success,Andreas,manual,,The pipeline succeeded.
+sales_data_etl,2025-03-21 17:07:28,4.69,Success,Santiago,schedule,,The pipeline succeeded.
+marketing_campaign_ingest,2025-03-21 23:07:28,23.78,Success,Emily,schedule,,The pipeline succeeded.
+marketing_campaign_ingest,2025-03-24 02:07:28,21.9,Success,Arockia,manual,,The pipeline succeeded.
+user_events_pipeline,2025-03-23 23:07:28,2.84,Success,Santiago,event,,The pipeline succeeded.
+payment_processing_job,2025-03-23 23:07:28,13.3,Failed,Santiago,manual,Out of memory,The pipeline 'payment_processing_job' failed on 2025-03-23 23:07:28 with the error: Out of memory.
+marketing_campaign_ingest,2025-03-22 06:07:28,24.01,Failed,Arockia,schedule,Timeout error,The pipeline 'marketing_campaign_ingest' failed on 2025-03-22 06:07:28 with the error: Timeout error.
+analytics_summary_job,2025-03-23 10:07:28,18.5,Success,Arockia,schedule,,The pipeline succeeded.
+sales_data_etl,2025-03-23 11:07:28,29.51,Failed,Juan,schedule,Timeout error,The pipeline 'sales_data_etl' failed on 2025-03-23 11:07:28 with the error: Timeout error.
+sales_data_etl,2025-03-24 08:07:28,18.15,Failed,Sarah,manual,Permission denied,The pipeline 'sales_data_etl' failed on 2025-03-24 08:07:28 with the error: Permission denied.
+user_events_pipeline,2025-03-23 04:07:28,19.63,Failed,Emily,manual,Permission denied,The pipeline 'user_events_pipeline' failed on 2025-03-23 04:07:28 with the error: Permission denied.
+product_catalog_sync,2025-03-24 05:07:28,20.58,Success,Sarah,manual,,The pipeline succeeded.
+analytics_summary_job,2025-03-22 05:07:28,6.73,Failed,Juan,manual,Timeout error,The pipeline 'analytics_summary_job' failed on 2025-03-22 05:07:28 with the error: Timeout error.
+daily_aggregates_pipeline,2025-03-22 20:07:28,26.63,Failed,Arockia,event,Out of memory,The pipeline 'daily_aggregates_pipeline' failed on 2025-03-22 20:07:28 with the error: Out of memory.
+daily_aggregates_pipeline,2025-03-22 11:07:28,9.47,Failed,Sarah,manual,Out of memory,The pipeline 'daily_aggregates_pipeline' failed on 2025-03-22 11:07:28 with the error: Out of memory.
+product_catalog_sync,2025-03-22 04:07:28,13.98,Success,Andreas,schedule,,The pipeline succeeded.
+inventory_check_pipeline,2025-03-24 11:07:28,13.96,Success,Andreas,schedule,,The pipeline succeeded.
+user_events_pipeline,2025-03-23 14:07:28,26.57,Failed,Emily,event,Timeout error,The pipeline 'user_events_pipeline' failed on 2025-03-23 14:07:28 with the error: Timeout error.
+sales_data_etl,2025-03-22 16:07:28,14.9,Success,Juan,schedule,,The pipeline succeeded.
+inventory_check_pipeline,2025-03-22 20:07:28,10.88,Success,Juan,event,,The pipeline succeeded.
+product_catalog_sync,2025-03-23 03:07:28,16.75,Failed,Emily,schedule,Null pointer exception,The pipeline 'product_catalog_sync' failed on 2025-03-23 03:07:28 with the error: Null pointer exception.

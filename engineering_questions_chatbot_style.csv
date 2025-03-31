@@ -1,0 +1,71 @@
+problem,answer_1,answer_2,answer_3,response
+A data pipeline frequently fails due to schema drift in the source database. How can you handle this?,Use schema evolution support in tools like Apache Avro or Delta Lake,Add automated data validation checks before ingestion,Version your schema definitions and compare before ingestion,"Sure! Here's how you can approach this:
+
+1. Use schema evolution support in tools like Apache Avro or Delta Lake.
+2. Add automated data validation checks before ingestion.
+3. Version your schema definitions and compare before ingestion.
+
+These are solid options depending on your exact setup. Let me know if you want to explore one of them further!"
+Spark jobs are running slow due to large data shuffles. How can this be optimized?,Repartition data to reduce shuffle size,Use broadcast joins for small lookup tables,Optimize the use of wide transformations,"Sure! Here's how you can approach this:
+
+1. Repartition data to reduce shuffle size.
+2. Use broadcast joins for small lookup tables.
+3. Optimize the use of wide transformations.
+
+These are solid options depending on your exact setup. Let me know if you want to explore one of them further!"
+Too many small files in your data lake are slowing down queries. What can you do?,Use compaction to merge small files regularly,Adjust Spark output partitioning strategy,Use optimized file formats like Parquet or ORC,"Sure! Here's how you can approach this:
+
+1. Use compaction to merge small files regularly.
+2. Adjust Spark output partitioning strategy.
+3. Use optimized file formats like Parquet or ORC.
+
+These are solid options depending on your exact setup. Let me know if you want to explore one of them further!"
+You receive late-arriving data in your real-time analytics pipeline. How do you manage this?,Use watermarking in streaming frameworks,Buffer events with a configurable delay window,Reprocess late-arriving events via dead-letter queues or re-ingestion,"Sure! Here's how you can approach this:
+
+1. Use watermarking in streaming frameworks.
+2. Buffer events with a configurable delay window.
+3. Reprocess late-arriving events via dead-letter queues or re-ingestion.
+
+These are solid options depending on your exact setup. Let me know if you want to explore one of them further!"
+Your SQL joins are running slowly. How can you improve their performance?,Ensure proper indexing on join keys,Use partitioning or bucketing on large tables,Avoid joining unnecessary columns early in the query,"Sure! Here's how you can approach this:
+
+1. Ensure proper indexing on join keys.
+2. Use partitioning or bucketing on large tables.
+3. Avoid joining unnecessary columns early in the query.
+
+These are solid options depending on your exact setup. Let me know if you want to explore one of them further!"
+Snowflake query costs are too high. What can be optimized?,Cluster data to improve pruning,Use result caching where possible,Avoid SELECT * and limit the scanned columns,"Sure! Here's how you can approach this:
+
+1. Cluster data to improve pruning.
+2. Use result caching where possible.
+3. Avoid SELECT * and limit the scanned columns.
+
+These are solid options depending on your exact setup. Let me know if you want to explore one of them further!"
+You're dealing with inconsistent timestamps across timezones. How to fix this?,Normalize all timestamps to UTC in your pipelines,Use timezone-aware datetime formats in storage and processing,Ensure clients and downstream systems interpret timezones correctly,"Sure! Here's how you can approach this:
+
+1. Normalize all timestamps to UTC in your pipelines.
+2. Use timezone-aware datetime formats in storage and processing.
+3. Ensure clients and downstream systems interpret timezones correctly.
+
+These are solid options depending on your exact setup. Let me know if you want to explore one of them further!"
+A batch job fails intermittently without consistent errors. How do you debug it?,Enable detailed logging and capture runtime metrics,Add retry logic with exponential backoff,Use pipeline observability tools to track failure patterns,"Sure! Here's how you can approach this:
+
+1. Enable detailed logging and capture runtime metrics.
+2. Add retry logic with exponential backoff.
+3. Use pipeline observability tools to track failure patterns.
+
+These are solid options depending on your exact setup. Let me know if you want to explore one of them further!"
+Data ingestion pipeline is not scaling with increasing data volume. What should you do?,Use a distributed processing framework like Apache Spark or Flink,Optimize data partitioning and parallelism,Implement backpressure handling and monitoring,"Sure! Here's how you can approach this:
+
+1. Use a distributed processing framework like Apache Spark or Flink.
+2. Optimize data partitioning and parallelism.
+3. Implement backpressure handling and monitoring.
+
+These are solid options depending on your exact setup. Let me know if you want to explore one of them further!"
+Data quality issues are increasing from external data providers. What can help?,Introduce a data quality framework with automated checks,Quarantine and review bad records separately,Collaborate with providers on schema contracts and quality SLAs,"Sure! Here's how you can approach this:
+
+1. Introduce a data quality framework with automated checks.
+2. Quarantine and review bad records separately.
+3. Collaborate with providers on schema contracts and quality SLAs.
+
+These are solid options depending on your exact setup. Let me know if you want to explore one of them further!"
